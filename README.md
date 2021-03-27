@@ -1,8 +1,10 @@
 # exfinder
 
+Very rudimentary PoC to search Windows's EVTX files like a SIEM.
 ## Requirements
 
 - [evtx](https://github.com/omerbenamram/evtx)
+- [jq](https://stedolan.github.io/jq/)
 
 ## Usage
 
@@ -25,3 +27,7 @@ Start quering like a SIEM
 
 ./exfinder.sh 'EventID=4688 Command= -ma lsass'
 ```
+
+## Note
+
+- *project* has a definite hardcoded order and does not depend upon the order in the query.
