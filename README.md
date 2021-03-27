@@ -28,6 +28,10 @@ Start quering like a SIEM
 ./exfinder.sh 'EventID=4688 Command= -ma lsass'
 ```
 
+## Supported Event IDs
+
+- [4688](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688)
+
 ## Note
 
 - *project* has a definite hardcoded order and does not depend upon the order in the query.
